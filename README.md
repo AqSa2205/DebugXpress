@@ -1,4 +1,4 @@
-# BugSage - AI-Powered Express.js Debugging Assistant
+# DebugXpress - AI-Powered Express.js Debugging Assistant
 
 ![Project Status](https://img.shields.io/badge/Status-Active-green)
 ![Python](https://img.shields.io/badge/Python-FastAPI-blue)
@@ -9,7 +9,7 @@
 
 ## 🚀 Overview
 
-BugSage is an intelligent debugging assistant specifically designed for **Express.js** developers. It leverages **Retrieval-Augmented Generation (RAG)** architecture to provide contextual, accurate debugging solutions by combining a curated knowledge base of Express.js issues with the power of **Llama 3-8B** language model through **Groq API**.
+DebugXpress is an intelligent debugging assistant specifically designed for **Express.js** developers. It leverages **Retrieval-Augmented Generation (RAG)** architecture to provide contextual, accurate debugging solutions by combining a curated knowledge base of Express.js issues with the power of **Llama 3-8B** language model through **Groq API**.
 
 The application helps developers quickly identify, understand, and resolve Express.js-related issues by retrieving similar problems from a vector database and generating tailored solutions using AI.
 
@@ -106,7 +106,7 @@ Before running the project, ensure you have:
 
 ```bash
 git clone <repository-url>
-cd bugSage
+cd DebugXpress
 ```
 
 ### 2. Backend Setup
@@ -184,7 +184,7 @@ GROQ_API_KEY=your_groq_api_key
 # Database Configuration
 POSTGRES_USER=your_username
 POSTGRES_PASSWORD=your_password
-POSTGRES_DB=bugsage_db
+POSTGRES_DB=DebugXpress_db
 ```
 
 ## 📖 Usage
