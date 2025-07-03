@@ -1,0 +1,12 @@
+uvicorn
+pinecone
+requests
+sentence_transformers
+groq
+dotenv
+fastapi[all]
+sqlalchemy 
+pydantic
+psycopg2-binary
+
+
